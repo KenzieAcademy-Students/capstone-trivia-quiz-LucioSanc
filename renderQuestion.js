@@ -3,9 +3,9 @@ const yearGenerator = function (yearData) {
     yearAired.classList.add("year");
 
     if (yearData.value === 0) {
-        yearAired.innerText = `Was Planned to Air On : ${yearData.game.aired}`;
+        yearAired.innerText = `Was Planned to Air On: ${yearData.game.aired}`;
     } else {
-        yearAired.innerText = `Aired On : ${yearData.game.aired}`
+        yearAired.innerText = `Aired On: ${yearData.game.aired}`
     }
 
     document.body.append(yearAired);

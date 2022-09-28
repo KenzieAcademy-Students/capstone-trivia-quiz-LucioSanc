@@ -45,9 +45,9 @@ const createAnswerBox = function (answerData) {
 
                 const newYear = document.querySelector(".year");
                 if (newData.value === 0) {
-                    newYear.innerText = `Was Planned to Air On : ${newData.game.aired}`;
+                    newYear.innerText = `Was Planned to Air On: ${newData.game.aired}`;
                 } else {
-                    newYear.innerText = `Aired On : ${newData.game.aired}`;
+                    newYear.innerText = `Aired On: ${newData.game.aired}`;
                 }
 
                 const newCategory = document.querySelector(".category");
@@ -71,7 +71,7 @@ const createAnswerBox = function (answerData) {
         if (textBox.value.toLocaleLowerCase() === newQuestionAnswer.toLocaleLowerCase()) {
             score += newQuestionValue;
 
-            displayPlayerScore.innerText = `Your Total : $${score}`;
+            displayPlayerScore.innerText = `Your Total: $${score}`;
 
             showAnswer.innerText = `Correct!`;
 
@@ -81,7 +81,7 @@ const createAnswerBox = function (answerData) {
             score -= newQuestionValue;
             displayPlayerScore.innerText = `Money Taken: $${score}!`;
 
-            showAnswer.innerText = `Wrong Answer :  ${newQuestionAnswer} `;
+            showAnswer.innerText = `Wrong Answer:  ${newQuestionAnswer} `;
 
             document.body.append(displayPlayerScore)
             document.body.append(showAnswer);
