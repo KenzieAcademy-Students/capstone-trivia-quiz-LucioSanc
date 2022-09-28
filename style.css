@@ -3,10 +3,10 @@
 }
 
 .category {
-    margin-right: 50rem;
-    margin-left: 50rem;
+    margin-right: 40rem;
+    margin-left: 40rem;
     outline-style: solid;
-    font-size: 6rem;
+    font-size: 4.5rem;
     outline-color: black;
     color: aliceblue;
     text-align: center;
@@ -15,8 +15,8 @@
 }
 
 .value {
-    font-size: 3rem;
-    margin-right: 140rem;
+    font-size: 2rem;
+    margin-right: 104rem;
     text-align: center;
     outline-color: black;
     color: rgb(255, 208, 0);
@@ -25,10 +25,11 @@
 }
 
 .year {
+    font-size: 1.5rem;
     text-align: center;
     outline-style: solid;
-    margin-left: 65rem;
-    margin-right: 65rem;
+    margin-left: 50rem;
+    margin-right: 50rem;
     background-color: rgb(0, 17, 255);
     outline-color: black;
     color: rgb(255, 208, 0);
@@ -36,13 +37,13 @@
 
 .question {
     color: aliceblue;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align:center;
     outline-style: solid;
     outline-color: black;
     background-color: rgb(0, 17, 255);
-    margin-left: 30rem;
-    margin-right: 30rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
 }
 
 .answer {
@@ -71,21 +72,21 @@
 }
 
 .playerAnswer {
-    font-size: 3rem;
+    font-size: 2rem;
     outline-style: solid;
     outline-color: black;
     color: rgb(255, 208, 0);
     background-color: rgb(0, 17, 255);
-    margin-right: 139rem;
+    margin-right: 100rem;
 
 }
 
 .answer_Show {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3.5rem;
     outline-style: solid;
-    margin-left: 61rem;
-    margin-right: 61rem;
+    margin-left: 45rem;
+    margin-right: 45rem;
     color: aliceblue;
     outline-color: black;
     background-color: rgb(0, 17, 255);
